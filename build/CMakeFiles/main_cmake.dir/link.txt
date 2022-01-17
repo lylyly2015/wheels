@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -g  -rdynamic CMakeFiles/main_cmake.dir/memorypool/main.cc.o  -o main_cmake 

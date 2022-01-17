@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/project/m_thread_pool/m_thread_pool.cpp
+m_thread_pool.h
+/root/project/m_thread_pool/m_thread_pool.h
+iostream
+-
+string.h
+-
+unistd.h
+-
+
+/root/project/m_thread_pool/m_thread_pool.h
+../task.h
+/root/project/task.h
+
+/root/project/task.cpp
+task.h
+/root/project/task.h
+
+/root/project/task.h
+pthread.h
+-
+queue
+-
+
