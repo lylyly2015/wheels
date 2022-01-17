@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
 	MyObject* p6 = new MyObject(6);
 	std::cout << "p6 " << p6 << " " << p6->data << std::endl;
 
-	//delete p1;
+	delete p1;
 	delete p2;
 	delete p3;
 	delete p4;
